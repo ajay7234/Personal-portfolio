@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply overflow-x-hidden scroll-smooth
+}
+
+body {
+
+    @apply dark:bg-[#00040f] bg-[#e2e2e2ab]
+}
+.transition-box{
+    transition: 1s all !important;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+background: #000b2b; 
+}
+::-webkit-scrollbar-thumb {
+background: #0B274C; 
+}
